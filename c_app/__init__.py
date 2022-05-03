@@ -9,4 +9,4 @@ app.register_blueprint(fashion)
 @app.template_filter('format_currency')
 def format_currency_filter(amount):
     currency_code = ccy.countryccy(request.accept_languages.best[-2:])
-    return f'{currency_code}  {amount}'
+    return f'{currency_code} {amount}'

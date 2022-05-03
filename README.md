@@ -12,6 +12,7 @@ A simple  fashion designs shop.
 - css
 - javascript
 - jquery
+- bootstrap
 - jinja2
 - python
 - flask
