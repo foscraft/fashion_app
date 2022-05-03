@@ -2,26 +2,26 @@ PRODUCTS = {
     'men':{
         'name':'khaki',
         'category':'trousers',
-        'price': 700,
+        'price': 7,
     },
     'ladies':{
         'name':'palazo pants',
         'category':'trousers',
-        'price':1200,
+        'price':12,
     },
     'kids':{
         'name':'kids jeans',
         'category':'trousers',
-        'price':500,
+        'price':5,
     },
     'ubuntu-phone':{
         'name':'ubuntu phone',
         'category':'phones',
-        'price':40000,
+        'price':400,
     },
     'iphones':{
         'name':'iphone-x',
         'category':'phones',
-        'price':120000,
+        'price':1200,
     }
 }
