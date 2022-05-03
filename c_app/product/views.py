@@ -15,3 +15,9 @@ def product(key):
     if not product:
         abort(404)
     return render_template('product.html', product=product)
+
+@fashion.context_processor
+def product_name_processor():
+    def full_name(product):
+        return f'{product["name"]} , {product["category"]}'
+    return dict(full_name=full_name)
